@@ -1,0 +1,18 @@
+.paginateSelect {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+@media (max-width: 768px) {
+  .paginateSelect {
+    display: flex;
+    flex-direction: column;
+  }
+  nav{
+    width: 100vw;
+    padding: 2px;
+    display: inline;
+  }
+}
